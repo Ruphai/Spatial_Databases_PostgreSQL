@@ -1,3 +1,6 @@
+--MULTI TABLE QUERIES
+-- We access data from different tables based on a common field.
+-- It is good practice to fully qualify your tables/ column selection when you are working with multi-tables queries
 --SELECT 
 --	raptor_nests.id, nest, nest_id, date, result, recentspec 
 --FROM raptor_surveys s, raptor_nests n
