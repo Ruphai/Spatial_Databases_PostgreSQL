@@ -1,1 +1,4 @@
 --TESTING SPATIAL RELATIONSHIPS
+--SPATIAL RELATIONSHIPS (PREDICATES)
+-- PREDICATES returns true or false and they are commonly used in JOINS. 
+-- Remember that these functions do not change the underlying geometries. 
