@@ -9,7 +9,7 @@ SELECT
 	Round((ST_Area(ST_Buffer(ST_Transform(p.geom, 26913), p.row_width))/4047)::numeric, 2)
 		AS total_area,
 		
-	Round((ST_Area(ST_Intersection(ST_Buffer(ST_Transform(r.geom, 26913), 600)), 
+	Round((ST_Area(ST_Intersection(ST_Buffer(ST_Transform(r.geom, 26913), 600)), --??? What is wrong here?
 				   ST_Buffer(ST_Transform(p.geom, 26913), p.row_width))/4047)::numeric, 2) 
 				   	AS impacted_area,
 					
